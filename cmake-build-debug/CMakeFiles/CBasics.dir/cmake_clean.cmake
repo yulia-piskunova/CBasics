@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CBasics"
   "CBasics.pdb"
-  "CMakeFiles/CBasics.dir/main.c.o"
+  "CMakeFiles/CBasics.dir/lab-4-task-8-arrays.c.o"
 )
 
 # Per-language clean rules from dependency scanning.

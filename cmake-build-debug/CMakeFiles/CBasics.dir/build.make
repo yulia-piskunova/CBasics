@@ -77,27 +77,27 @@ include CMakeFiles/CBasics.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CBasics.dir/flags.make
 
-CMakeFiles/CBasics.dir/main.c.o: CMakeFiles/CBasics.dir/flags.make
-CMakeFiles/CBasics.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Tapston/Work/CBasics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CBasics.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CBasics.dir/main.c.o   -c /Users/Tapston/Work/CBasics/main.c
+CMakeFiles/CBasics.dir/lab-4-task-8-arrays.c.o: CMakeFiles/CBasics.dir/flags.make
+CMakeFiles/CBasics.dir/lab-4-task-8-arrays.c.o: ../lab-4-task-8-arrays.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Tapston/Work/CBasics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CBasics.dir/lab-4-task-8-arrays.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CBasics.dir/lab-4-task-8-arrays.c.o   -c /Users/Tapston/Work/CBasics/lab-4-task-8-arrays.c
 
-CMakeFiles/CBasics.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CBasics.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Tapston/Work/CBasics/main.c > CMakeFiles/CBasics.dir/main.c.i
+CMakeFiles/CBasics.dir/lab-4-task-8-arrays.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CBasics.dir/lab-4-task-8-arrays.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Tapston/Work/CBasics/lab-4-task-8-arrays.c > CMakeFiles/CBasics.dir/lab-4-task-8-arrays.c.i
 
-CMakeFiles/CBasics.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CBasics.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Tapston/Work/CBasics/main.c -o CMakeFiles/CBasics.dir/main.c.s
+CMakeFiles/CBasics.dir/lab-4-task-8-arrays.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CBasics.dir/lab-4-task-8-arrays.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Tapston/Work/CBasics/lab-4-task-8-arrays.c -o CMakeFiles/CBasics.dir/lab-4-task-8-arrays.c.s
 
 # Object files for target CBasics
 CBasics_OBJECTS = \
-"CMakeFiles/CBasics.dir/main.c.o"
+"CMakeFiles/CBasics.dir/lab-4-task-8-arrays.c.o"
 
 # External object files for target CBasics
 CBasics_EXTERNAL_OBJECTS =
 
-CBasics: CMakeFiles/CBasics.dir/main.c.o
+CBasics: CMakeFiles/CBasics.dir/lab-4-task-8-arrays.c.o
 CBasics: CMakeFiles/CBasics.dir/build.make
 CBasics: CMakeFiles/CBasics.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Tapston/Work/CBasics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable CBasics"

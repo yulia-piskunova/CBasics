@@ -143,32 +143,32 @@ CBasics/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CBasics.dir/build.make CMakeFiles/CBasics.dir/build
 .PHONY : CBasics/fast
 
-main.o: main.c.o
+lab-4-task-8-arrays.o: lab-4-task-8-arrays.c.o
 
-.PHONY : main.o
+.PHONY : lab-4-task-8-arrays.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CBasics.dir/build.make CMakeFiles/CBasics.dir/main.c.o
-.PHONY : main.c.o
+lab-4-task-8-arrays.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CBasics.dir/build.make CMakeFiles/CBasics.dir/lab-4-task-8-arrays.c.o
+.PHONY : lab-4-task-8-arrays.c.o
 
-main.i: main.c.i
+lab-4-task-8-arrays.i: lab-4-task-8-arrays.c.i
 
-.PHONY : main.i
+.PHONY : lab-4-task-8-arrays.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CBasics.dir/build.make CMakeFiles/CBasics.dir/main.c.i
-.PHONY : main.c.i
+lab-4-task-8-arrays.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CBasics.dir/build.make CMakeFiles/CBasics.dir/lab-4-task-8-arrays.c.i
+.PHONY : lab-4-task-8-arrays.c.i
 
-main.s: main.c.s
+lab-4-task-8-arrays.s: lab-4-task-8-arrays.c.s
 
-.PHONY : main.s
+.PHONY : lab-4-task-8-arrays.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CBasics.dir/build.make CMakeFiles/CBasics.dir/main.c.s
-.PHONY : main.c.s
+lab-4-task-8-arrays.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CBasics.dir/build.make CMakeFiles/CBasics.dir/lab-4-task-8-arrays.c.s
+.PHONY : lab-4-task-8-arrays.c.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CBasics"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... lab-4-task-8-arrays.o"
+	@echo "... lab-4-task-8-arrays.i"
+	@echo "... lab-4-task-8-arrays.s"
 .PHONY : help
 
 

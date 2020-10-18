@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/Tapston/Work/CBasics/main.c">
+		<Unit filename="/Users/Tapston/Work/CBasics/lab-4-task-8-arrays.c">
 			<Option target="CBasics"/>
 		</Unit>
 		<Unit filename="/Users/Tapston/Work/CBasics/CMakeLists.txt">
